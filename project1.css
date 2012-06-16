@@ -1,0 +1,144 @@
+
+body {background-color:#F1E3F3;
+       
+    }
+
+
+
+/* header style */
+#div_head{float:right;
+            width: 99.99%;
+			height: 14em;
+		/*	background-color:gray;*/
+			background-color:#A8A878;
+			
+			}
+
+#div_left1  { float:left;
+		    margin-top:2%;
+		    margin-left:20%;
+		 }
+		 
+#div_right1{float:left;
+            margin-left:1.5em;
+		     margin-top:2%;
+		     } 
+#head_text{
+          float:left;
+		  margin-left: 1.5em;
+          margin-top:2.25em;
+		  font: 5em, arial, sans-serif;
+		  color: black;
+		  text-align: center;
+		  }
+/******************************************** end header style *************************/
+/*********************************** Begin Div Left ************************************/
+.mission{  font-family:"Times New Roman", Times, serif;
+           font-size:1.25em;
+           margin-top:1em;
+		   margin-right:1em;
+		   margin-left:1em;
+		   list-style-type:none;
+		   
+		   
+		 }
+.price { font-family:"Times New Roman", Times, serif;
+           font-size:1.25em;
+		   margin-right:.25em;
+		   text-align:center;
+		   color:blue;
+		   background-color: #F1E3F3;
+		   border:solid white;
+		  
+		 }
+.div_container{clear:both;
+               overflow: hidden;
+	           width: 100%;
+			 
+ }              
+.div_left2 {
+                 float:left;
+				 margin-right:1.25em;
+		         width:14%;
+				 border-left:0.25em;
+				 border-left:solid gray;
+				 background-color:#A8A878;
+		        }
+				
+.div_left2 ul {list-style-type:none;}
+#center_image {margin-left:1em;}
+
+.div_left3{
+           float:left;
+   		   margin-top: 1em;
+		   margin-right:1.25em;	
+   
+	     
+				
+		        }
+#specials {font-family:"Courier New","Times New Roman", Times, serif;
+          font-style:oblique;
+		  font-weight:900;
+          text-align:center;
+		  width:100%;
+          }
+/****************************End div left *************************************/
+/****************************Begin div right **********************************/		 
+.div_right2     {
+          float:right;
+          width:20%;
+		  margin-top:4em;
+		  margin-right:1em;
+		  margin-bottom:1.5em;
+		  margin-left:1em;
+		  
+		  }
+/************************* Enda div right *************************************/
+/************************* Footer ********************************************/
+ .footer              {clear:both;
+                float:left;
+				width:100%;
+				background-color:#A8A878;
+                height:3em;	
+                border-bottom:.25em;				
+				border-bottom:solid gray;
+          				
+		        }
+/*************************Products Table **********************/
+.table_position{
+                 float:left;
+				 margin-top:1em;
+				 margin-right:1em;
+				 border:solid gray;
+				background-color:#5E6CB7; 
+		        }
+		  
+table { caption-side: top;
+      font-weight: bold;
+	  margin-top:1em;
+	  margin-bottom:1em;
+	 
+	 }
+table td {padding:2px;}
+/************************Pest Control Page **********************/
+.div_left4 {float:left;
+   		   margin-top: 1em;
+		   margin-right: 2em;
+		   width:17%;
+		  	}
+
+.div_right4{
+           float:right;
+   		   margin-top: 1em;
+		   margin-left:2em;	
+             
+	     }
+.div_right3	
+{
+           float:right;
+   		   margin-top: .25em;
+		   width:80%;
+		  /* margin-left:2em;	*/
+             
+	     }
+h3 {text-decoration:underline;}		 
