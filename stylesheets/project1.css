@@ -9,15 +9,18 @@ body {background-color:#F1E3F3;
 #div_head{float:right;
             width: 99.99%;
 			height: 14em;
-		   background-color:#A8A878;
+		  background-color:#A8A878;
 		   overflow:auto;
-		   /* background-color:#F5F5DC;	*/		
+		   /* background-color:#F5F5DC;	*/
+          		   
 			
 			}
 
 #div_left1  { float:left;
 		    margin-top:2%;
-		    margin-left:20%;
+		   margin-left:20%;
+		 
+			
 		 }
 		 
 #div_right1{float:left;
@@ -63,7 +66,8 @@ body {background-color:#F1E3F3;
 		         width:14%;
 				 border-left:0.25em;
 				 border-left:solid gray;
-				 background-color:#A8A878;
+				background-color:#A8A878;
+				 
 		        }
 				
 .div_left2 ul {list-style-type:none;}
