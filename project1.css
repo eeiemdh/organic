@@ -9,8 +9,7 @@ body {background-color:#F1E3F3;
 #div_head{float:right;
             width: 99.99%;
 			height: 14em;
-		/*	background-color:gray;*/
-			background-color:#A8A878;
+		    background-color:gray;			
 			
 			}
 
@@ -28,7 +27,7 @@ body {background-color:#F1E3F3;
 		  margin-left: 1.5em;
           margin-top:2.25em;
 		  font: 5em, arial, sans-serif;
-		  color: black;
+		  color: blue;
 		  text-align: center;
 		  }
 /******************************************** end header style *************************/
@@ -117,9 +116,11 @@ table { caption-side: top;
       font-weight: bold;
 	  margin-top:1em;
 	  margin-bottom:1em;
-	 
 	 }
-table td {padding:2px;}
+.table_price{
+            
+	         margin-left:10%;
+	        }
 /************************Pest Control Page **********************/
 .div_left4 {float:left;
    		   margin-top: 1em;
