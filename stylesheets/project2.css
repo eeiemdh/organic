@@ -9,10 +9,8 @@ body {background-color:#F1E3F3;
 #div_head{float:right;
             width: 99.99%;
 			height: 14em;
-			margin:2em 2em 2em 2em;
-		    max-width:100%;
-		    background-color:#0C4E41;	
-		    
+		   max-width:100%;
+		   background-color:#0C4E41;	
           		   
 			
 			}
@@ -25,22 +23,17 @@ body {background-color:#F1E3F3;
 		 }
 		 
 #div_right1{float:left;
-            margin-left:1.5em;
+            margin-right:5em;
 		     margin-top:2%;
 			 max-width:100%;
 		     } 
 #head_text{
-          float:left;
-		  margin-top:2.25em;
-		  margin-right:1.75em;
-		  margin-bottom:1.5em;
-		  margin-left: 1.75em;
-		  padding:.5em .5em .5em .5em;
+         
+		  margin-left: 1.5em;
+          margin-top:2.25em;
 		  font: 5em, arial, sans-serif;
-		  color: white;
+		  color: blue;
 		  text-align: center;
-		  border-radius:8px;
-		  background-color:green;
 		  }
 /******************************************** end header style *************************/
 /*********************************** Begin Div Left ************************************/
@@ -50,7 +43,6 @@ body {background-color:#F1E3F3;
 		   margin-right:1em;
 		   margin-left:1em;
 		   list-style-type:none;
-		   text-align:left;
 		   
 		   
 		 }
@@ -107,7 +99,7 @@ body {background-color:#F1E3F3;
 		  margin-left:1em;
 		  
 		  }
-/************************* End div right *************************************/
+/************************* Enda div right *************************************/
 /************************* Footer ********************************************/
  .footer              {
                 float:left;
@@ -178,13 +170,4 @@ lh{color:green;
 		   border:.15em solid black;
 		   border-radius:15px;
 		   border-color:green;
-		   padding: 1em 1em 1em 1em;
 		   }
-/*********************************javascript ********************************/
-#form_register{ 
-          font:italic 12pt arial;
-		   list-style-type:none;
-		   
-		  }
-#form_register li{display:inline;
-                 margin-right:10px;}		  
