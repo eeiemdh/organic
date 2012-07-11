@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
- "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 
 <head>
    <title>Client Project</title>
-   <link rel="stylesheet" href="./stylesheets/project1.css" type="text/css" media="screen"/>
+   <link rel="stylesheet" href="./stylesheets/project1.css" type="text/css" media="screen" title="advanced"/>
+   <link rel="alternate stylesheet" href="./stylesheets/project2.css" type="text/css" media="screen" title="basic"/>
    <link rel="stylesheet" href="./stylesheets/printstyle.css" type="text/css" media="print"/>
+   <script type="text/javascript" src="./javascript/jquery-1.7.2.min.js"></script>
+    <script type ="text/javascript" src="./javascript/style_object.js"></script>
    </head>
 <body>
 <div id="div_head">
-<div id="div_left1"> <img src= "./images/onion_cartoon.jpg" alt = "image of onions" width="100%" height="100%"/>
+<div id="div_left1"> <img src= "./images/onion_cartoon.jpg" alt = "image of onions" width="150" height="150"/>
 </div> <!--end div_left-->
 <h1 id="head_text"> Know Your Onions </h1>
-<div id="div_right1"> <img src= "./images/onion_cartoon.jpg" alt = "image of onions" width="100%" height="100%"/>
+<div id="div_right1"> <img src= "./images/onion_cartoon.jpg" alt = "image of onions" width="150" height="150"/>
 </div> <!--end div_right-->
 </div> <!--end div_head -->
 <div class="div_container">
@@ -21,18 +24,23 @@
 <ul>
     <li><a href="./home.html">Home</a></li>
 	<li><a href="./Products.html"> Products Catalogue </a></li>
+	<li><a href="./Pests.html"> Pests Control </a></li>
 	<li><a href="./Diseases.html"> Disease Control </a></li>
 	<li><a href="./Courses.html"> Courses </a></li>
-	
+	<li><a href="./register.html"> Register</a></li>
+	<li><a href="#" id="basic">Basic Style</a></li>
+    <li><a href="#" id="advanced">Advanced Styles</a></li>
 	
 </ul>
 
 <h1 id="specials"> Promotions</h1>
 <p class="price">
-<img src="./images/slug_death.jpg" alt="Image of canister of slug pellets" width="90%" height="250"/>
-price €4.50
-<img src="./images/lawnfood.jpg" alt="Image of bag of lawn food" width="90%" height="250"/>
+<img src="./images/bugSpray.jpg" alt="Image of insect spray" width="90%" height="200"/>
+price €6.50
+<img src="./images/nemaslug.jpg" alt="Image of slug box" width="90%" height="200"/>
 Price €8.50
+<img src="./images/organicPestspray.jpg" alt="Image pest spray" width="90%" height="200"/>
+Price €10.50
 </p>
 </div>
 <div class = "div_right3">
@@ -147,8 +155,7 @@ The tarnished plant bug is a sukling insect that feeds on flowers and buds of eg
 
 
 </div>
-
-
+ <script type ="text/javascript" src="./javascript/style_object.js"></script>
 
 </body>
 </html>

@@ -1,16 +1,15 @@
 
-body {background-color:#F1E3F3;
+body {background-color:#D3C8B2;
       
     }
-
-
-
-/* header style */
 #div_head{float:right;
-            width: 99.99%;
+            width: 100%;
 			height: 14em;
-		   max-width:100%;
-		   background-color:#0C4E41;	
+			margin:2em 2em 2em 2em;
+			border-radius:20px;
+		    max-width:100%;
+		    background-color:#292A24;	
+		    
           		   
 			
 			}
@@ -23,19 +22,27 @@ body {background-color:#F1E3F3;
 		 }
 		 
 #div_right1{float:left;
-            margin-right:5em;
+            margin-left:1.5em;
 		     margin-top:2%;
 			 max-width:100%;
 		     } 
 #head_text{
-         
-		  margin-left: 1.5em;
-          margin-top:2.25em;
-		  font: 5em, arial, sans-serif;
-		  color: blue;
+          float:left;
+		  margin-top:2.25em;
+		  margin-right:1.75em;
+		  margin-bottom:1.5em;
+		  margin-left: 1.75em;
+		  padding:.5em .5em .5em .5em;
+		  font: 2em, arial, sans-serif;
+		  color: white;
 		  text-align: center;
+		  border-radius:8px;
+		  background-color:#4F5144;
 		  }
 /******************************************** end header style *************************/
+
+
+
 /*********************************** Begin Div Left ************************************/
 .mission{  font-family:"Times New Roman", Times, serif;
            font-size:1.25em;
@@ -43,7 +50,7 @@ body {background-color:#F1E3F3;
 		   margin-right:1em;
 		   margin-left:1em;
 		   list-style-type:none;
-		   
+		   color:#0D6759;
 		   
 		 }
 .price { font-family:"Times New Roman", Times, serif;
@@ -61,13 +68,18 @@ body {background-color:#F1E3F3;
 			 
  }              
 .div_left2 {
-                 float:left;
-				 margin-right:1.25em;
-		         width:14%;
+                 float:right;
+				 margin-top:1em;
+				 margin-right:1em;
+				 margin-bottom:1em;
+				 margin-left:1em;
+				 border-radius:10px;
+				 padding-top:.5em;
+				 padding-bottom:.5em;
+				 padding-left:.5em;
+		         width:16%;
 				 max-width:100%;
-				 border-left:0.25em;
-				 border-left:solid gray;
-				background-color:#0C4E41;
+				 background-color:#292A24;
 				 
 		        }
 				
@@ -91,12 +103,22 @@ body {background-color:#F1E3F3;
 /****************************End div left *************************************/
 /****************************Begin div right **********************************/		 
 .div_right2     {
-          float:right;
+          float:left;
           width:20%;
 		  margin-top:4em;
 		  margin-right:1em;
 		  margin-bottom:1.5em;
 		  margin-left:1em;
+		  
+		  }
+.div_right2_2     {
+          float:left;
+          width:20%;
+		  margin:0 2em 1em .5em;
+		  padding: 1em 1em 1em 1em;
+		  border:solid-gray;
+		  font-style:oblique;
+		  background-color:white;
 		  
 		  }
 /************************* Enda div right *************************************/
@@ -113,7 +135,7 @@ body {background-color:#F1E3F3;
           				
 		        }
 /*************************Products Table **********************/
-.table_position{ width:82%;
+.table_position{ width:79%;
                  float:left;
 				 margin-top:1em;
 				 margin-right:1em;
@@ -135,31 +157,34 @@ body {background-color:#F1E3F3;
    		   margin-top: 1em;
 		   margin-right: 2em;
 		   width:17%;
-		  	}
+		  	color:#0D6759;
+			}
 
 
 .div_right4{
            float:right;
    		   margin-top: 1em;
 		   margin-left:2em;	
-             
+           color:#0D6759;  
 	     }
 .div_right3	
 {
            float:right;
    		   margin-top: .25em;
 		   width:80%;
-
+           color:#0D6759;
              
 	     }
 h3 {text-decoration:underline;
-     font-weight:bold;}		 
+     font-weight:bold;
+	 color:black;}		 
 /*******************************Disease control page **************************/
-.div_left5{float:left;
+.div_left5{clear:both;
+           float:left;
 		   margin-right: 2em;
 		   font-size:1.25em;
 		  	}
-lh{color:green;
+ol lh{color:green;
   font-weight:bold;
   text-decoration:underline;}
 /*******************************Courses Page ********************************/
@@ -167,7 +192,7 @@ lh{color:green;
            margin-left:15em;
 		   margin-right:15em;
 		   font-size:1.1em;
-		   border:.15em solid black;
+		   border:.15em solid green;
 		   border-radius:15px;
-		   border-color:green;
+		   padding: 1em 1em 1em 1em;
 		   }

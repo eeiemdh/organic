@@ -1,0 +1,54 @@
+/*
+ * Edit this file and then use the methods detailed in the following page 
+ * to apply this stylesheet to your particular browser: 
+ * http://www.commercetuned.co.uk/accessibility/user-style-sheets.php.
+ * Rememeber to save the file with a .css extension! 
+ */
+
+/*
+ * The first declaration is to set styles to the entire page.
+ * This example says make the background white and the color of text black. 
+ * the !important declaration should over-ride any values set by the website.
+ */
+ 
+*
+/* the 'star' above means apply this to the whole of the page */
+ 	{color: black !important;
+ 	background: white !important;}
+
+/*
+ * This next example changes the font size to large. 
+ * It also says please use arial as my default font. 
+ */
+ 
+*
+	{font: large arial, helvetica, sans-serif;}
+	
+/*
+ * This one turns off horrible blinking text:
+ */
+
+blink
+	{text-decoration: none !important;}
+
+/* 
+ * this next style is just for illustration - 
+ * it adds a pink border to all table cells on a page 
+ */
+ 
+th, td
+	{border: 3px solid pink !important;}
+
+/* 
+ * this declaration hides all the images on the page 
+ */
+
+img
+	{display: none !important;}
+ 
+/* 
+ * There are many more examples of declarations you might want to use at:
+ *  http://www.mozilla.org/unix/customizing.html
+ */
+
+
