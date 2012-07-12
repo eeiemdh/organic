@@ -32,7 +32,7 @@ $(document).ready( function() {
 		    return false;
 		}
 		
-	
+
 	});
 	
 });
@@ -122,6 +122,23 @@ $(function(){
 			
 		    });
 			 
+//////////////////////Set active link //////////////////////////////////
+////////////http://www.jessenicola.com/blog/jquery-set-active-links-current-url//////////////
+
+$(document).ready(function(){
+  var pathname = window.location.pathname;
+  var pathname = pathname.split('/');
+  var tester = pathname[pathname.length-1];
+  
+  $('#links a').each(function(){
+    var test = $(this).attr('href');
+	var test = test.split('./');
+	var test = test[test.length-1];
+	if(test == tester){
+	   $(this).addClass('active');
+	   }
+     });
+});
 
 
 
@@ -170,6 +187,54 @@ otherStyleLink.onclick = function()
 
 
  ////////////////////////////////End User switch stylesheets/////////////////////////////////////////////
+ 
+ /////////////////////////////////Courses page //////////////////////////////////////////////////////
+ //http://www.go4expert.com/forums/showthread.php?t=1012 ///////////////
+          var bannerImg = new Array();
+		  bannerImg[0]="./images/cheese3.jpg";
+		  bannerImg[1]="./images/cheese4.jpg";
+		  bannerImg[2]="./images/cheese5.jpg";
+		  bannerImg[3]="./images/cheese6.jpg";
+		  bannerImg[4]="./images/cheese7.jpg";
+		  
+	var newBanner = 0;
+	var totalBan = bannerImg.length;
+function cycleBan(){
+ var id = new Array();
+     id[0] = document.getElementById("banner1");
+	 id[1] = document.getElementById("banner2");
+	 id[2] = document.getElementById("banner3");
+	 id[3] = document.getElementById("banner4");
+	 id[4] = document.getElementById("banner5");
+       newBanner++;
+	   
+	   if(newBanner == totalBan)
+	   { newBanner=0;
+	   }
+	
+	   for( i = 0; i< 5; i++){
+	       id[i].src=bannerImg[newBanner];
+		   }
+		   
+// set time for length of image display
+     setTimeout("cycleBan()", 4*1000);
+} // end function cycleBan	
+
+
+$(document).ready( function() {
+                cycleBan()
+	  
+
+ });
+ 
+	   
+	
+	
+ 
+ 
+ 
+ 
+ 
  
  
  ////////////////////////////////Begin Cookies /////////////////////////////////////////////////////////

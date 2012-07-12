@@ -11,7 +11,9 @@ body {background-color:#D3C8B2;
 			height: 14em;
 			margin:2em 2em 2em 2em;
 		    max-width:100%;
-             background-color:#0D6759;		   
+			border-radius:20px;
+            background-color:#0D6759;
+         			 
 		  }
 
 #div_left1  { float:left;
@@ -33,11 +35,11 @@ body {background-color:#D3C8B2;
 		  margin-bottom:4.5em;
 		  margin-left: 1.75em;
 		  padding:.5em .5em .5em .5em;
-		  font: 3em, arial, sans-serif;
+		  font: 3em arial, sans-serif;
 		  color: #6A5E72;
 		  text-align: center;
 		  border-radius:8px;
-		 background-color:white;*/
+		 background-color:white;
 		  }
 /******************************************** end header style *************************/
 /*********************************** Begin Div Left ************************************/
@@ -66,12 +68,15 @@ body {background-color:#D3C8B2;
 	        line-height: 20px;
 		    text-decoration:underline;
 	 }
-h3  + ul{
-         font-family: Arial, Helvetica, sans-serif;
-	     font-size: 16px;
-	     font-style: normal;
-	     line-height: 22px;
-	  }
+	 
+.subheading  + ul  > li {font-family: Arial, Helvetica, sans-serif;
+                     font-size:1em;
+                     margin-top:.25em;
+		             margin-right:1em;
+		             margin-left:1em;
+		        }	 
+	 
+
 .price { font-family:"Times New Roman", Times, serif;
            font-size:1.1em;
 		   margin-right:1.2em;
@@ -99,7 +104,7 @@ h3  + ul{
 				 max-width:100%;
 				 border-left:0.25em;
 				/* border-left:solid gray;*/
-				background-color:#FFFF;
+				background-color:#FFF;
 				 
 		        }
 				
@@ -139,7 +144,6 @@ h3  + ul{
 		  height:10em;
 		  margin:0 2em 1em .5em;
 		  padding: 1em 1em 1em 1em;
-		  border:solid-gray;
 		  font-style:oblique;
 		  background-color:white;
 	
@@ -149,7 +153,6 @@ h3  + ul{
           float:right;
           width:20%;
 		  margin:0 0 1em .5em;
-		  border:solid-gray;
 		  background-color:white;
 		  
 		  }
@@ -165,20 +168,33 @@ a:link {
 }
 a:hover {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
+	font-size: 14px;
 	text-decoration: underline;
 	font-weight: bold;
 	padding: 2px;
 	font-style: normal;
 	background-color: #fff;
+	color:#292A24;
 }
+a.active {
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 2px;
+	font-style: oblique;
+	background-color: #0D6759;
+	color:#2D0478;
+}
+
+
+
 /************************* End div right *************************************/
 /************************* Footer ********************************************/
  .footer              {
                 float:left;
 				width:100%;
 				overflow:auto;
-				background-color:#A8A878;
+				background-color:#0D6759; /*#A8A878;*/
                 height:3em;	
 				margin-bottom:1em;
                 border-bottom:.25em;				
@@ -188,20 +204,26 @@ a:hover {
 /*************************Products Table **********************/
 .table_position{ width:80%;
                  float:left;
-				/* margin-top:1em;*/
 				 margin-right:.5em;
-				 border:solid gray;
-				background-color:#5E6CB7; 
+			     border:solid gray;
+				 background-color:#5E6CB7; 
 		        }
 		  
 .table_spec{ caption-side: top;
        font-weight: bold;
 	   margin-top:1em;
 	   margin-bottom:1em;
-	   border-spacing: 16px 0px;
+	   margin-left:1em;
+	   border-spacing: 15px 0px;
 	   }
 .table_price{text-align:center;
               color:white;}
+			  
+			  
+caption { font-weight:bold;
+        color:#FFF;
+		font-size:2em;
+	  }
 
 /************************Pest Control Page **********************/
 .div_left4 {float:left;
@@ -252,13 +274,16 @@ ol lh{color:green;
                font-family: Arial, Helvetica, sans-serif;
 		       line-height:1em;
 		       font-size:1em;
+			   color:#0D6759;
+			   font-weight:bold;
 			  }
-h4 ul :first-child  {  margin-top:1em;
-                 color:#0D6759;
-                 font-weight:bold; 
-                 text-decoration:underline;
-				  list-style-type:none;
-				 }
+.div_left5 + ul :first-child {  
+                            color:#0D6759;
+                            font-weight:bold; 
+                            text-decoration:underline;
+				            list-style-type:none;
+				            }
+
 
 
 /*******************************Courses Page ********************************/
@@ -276,7 +301,7 @@ fieldset{ margin: 1.5em 0 0 0;
        padding:0;
 	   float:left;
 	   width:100%;
-	   margin: 0 0 1 -1em 0;
+	   margin:  0em 1em -1em 0em;
        padding: 0 0 1em 0;
        border-style: none;	   
 	   border-top: 1px solid #BFBAB0;

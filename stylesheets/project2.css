@@ -3,7 +3,7 @@ body {background-color:#D3C8B2;
       
     }
 #div_head{float:right;
-            width: 100%;
+            width: 97%;
 			height: 14em;
 			margin:2em 2em 2em 2em;
 			border-radius:20px;
@@ -17,42 +17,32 @@ body {background-color:#D3C8B2;
 #div_left1  { float:left;
 		    margin-top:2%;
 		   margin-left:20%;
-		   max-width:100%
-			
+		   max-width:100%;
+			display:none;
 		 }
 		 
 #div_right1{float:left;
             margin-left:1.5em;
 		     margin-top:2%;
 			 max-width:100%;
+			 display:none;
 		     } 
 #head_text{
           float:left;
-		  margin-top:2.25em;
-		  margin-right:1.75em;
-		  margin-bottom:1.5em;
-		  margin-left: 1.75em;
+		  margin:1em 1.75em 1.5em 9em;
 		  padding:.5em .5em .5em .5em;
-		  font: 2em, arial, sans-serif;
 		  color: white;
-		  text-align: center;
 		  border-radius:8px;
 		  background-color:#4F5144;
+		  font-family: Arial, Helvetica, sans-serif;
+	      font-size: 3em;
 		  }
 /******************************************** end header style *************************/
 
 
 
 /*********************************** Begin Div Left ************************************/
-.mission{  font-family:"Times New Roman", Times, serif;
-           font-size:1.25em;
-           margin-top:1em;
-		   margin-right:1em;
-		   margin-left:1em;
-		   list-style-type:none;
-		   color:#0D6759;
-		   
-		 }
+
 .price { font-family:"Times New Roman", Times, serif;
            font-size:1.25em;
 		   margin-right:.25em;
@@ -68,7 +58,7 @@ body {background-color:#D3C8B2;
 			 
  }              
 .div_left2 {
-                 float:right;
+                 float:left;
 				 margin-top:1em;
 				 margin-right:1em;
 				 margin-bottom:1em;
@@ -99,11 +89,12 @@ body {background-color:#D3C8B2;
 		  font-weight:900;
           text-align:center;
 		  width:100%;
+		  color:white;
           }
 /****************************End div left *************************************/
 /****************************Begin div right **********************************/		 
 .div_right2     {
-          float:left;
+          float:right;
           width:20%;
 		  margin-top:4em;
 		  margin-right:1em;
@@ -112,22 +103,94 @@ body {background-color:#D3C8B2;
 		  
 		  }
 .div_right2_2     {
-          float:left;
+          float:right;
           width:20%;
+		  height:10em;
 		  margin:0 2em 1em .5em;
 		  padding: 1em 1em 1em 1em;
-		  border:solid-gray;
+		  border-style:solid;
+		  border-color:gray;
 		  font-style:oblique;
 		  background-color:white;
 		  
 		  }
-/************************* Enda div right *************************************/
+/************************* End div right *************************************/
+a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-decoration: underline;
+	font-weight: bold;
+	padding: 1px;
+	font-style: normal;
+	
+}
+a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-decoration: underline;
+	font-weight: bold;
+	padding: 2px;
+	font-style: normal;
+	background-color: #fff;
+	color:#B11623;
+
+}
+a.active {
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 2px;
+	font-style: oblique;
+	background-color: #4DBCE9;
+	color:#2D0478;
+}
+
+/*************************************Home page *************************************/
+#heading {font-family: Arial, Helvetica, sans-serif;
+	     font-size:20px;
+	     font-style: normal;
+	     font-weight: bold;
+	     text-transform: uppercase;
+	     text-align:center;
+	     line-height: 30px;
+		 text-decoration:underline;
+	    }
+.subheading {font-family: Arial, Helvetica, sans-serif;
+	        font-size: 15px;
+	        font-style: normal;
+	        font-weight: bold;
+	        text-transform: uppercase;
+	        text-align:center;
+	        line-height: 20px;
+		    text-decoration:underline;
+	 }
+.mission{  font-family: Arial, Helvetica, sans-serif;
+           font-size:1em;
+           margin-top:1em;
+		   margin-right:1em;
+		   margin-left:1em;
+		   list-style-type:none;
+		   color:#0D6759;
+		   
+		 }
+.subheading  + ul  > li {font-family: Arial, Helvetica, sans-serif;
+                     font-size:1em;
+                     margin-top:.25em;
+		             margin-right:1em;
+		             margin-left:1em;
+		        
+		        
+		   
+		         }
+
+
+
 /************************* Footer ********************************************/
  .footer              {
                 float:left;
 				width:100%;
 				overflow:auto;
-				background-color:#A8A878;
+				background-color:#292A24;
                 height:3em;	
 				margin-bottom:1em;
                 border-bottom:.25em;				
@@ -144,13 +207,18 @@ body {background-color:#D3C8B2;
 		        }
 		  
 .table_spec{ caption-side: top;
-       font-weight: bold;
-	   margin-top:1em;
-	   margin-bottom:1em;
-	   border-spacing: 16px 0px;
-	   }
+             font-weight: bold;
+	          margin-top:1em;
+	          margin-bottom:1em;
+	          border-spacing: 16px 11px;
+	       }
 .table_price{text-align:center;
               color:white;}
+			  
+caption { font-weight:bold;
+        color:#FFF;
+		font-size:2em;
+	  }
 
 /************************Pest Control Page **********************/
 .div_left4 {float:left;
@@ -184,9 +252,19 @@ h3 {text-decoration:underline;
 		   margin-right: 2em;
 		   font-size:1.25em;
 		  	}
-ol lh{color:green;
-  font-weight:bold;
-  text-decoration:underline;}
+.div_left5 > h3{text-decoration:underline;
+               font-family: Arial, Helvetica, sans-serif;
+		       line-height:1em;
+		       font-size:.75em;
+			   color:#000;
+			   font-weight:bold;
+			  }
+.div_left5 + ul :first-child {  
+                            color:#000;
+                            font-weight:bold; 
+                            text-decoration:underline;
+				            list-style-type:none;
+				            }
 /*******************************Courses Page ********************************/
 .div_left6{float:left;
            margin-left:15em;
