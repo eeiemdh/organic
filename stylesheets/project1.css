@@ -1,54 +1,48 @@
 
 body {background-color:#D3C8B2;
-      
     }
 
-
-
 /* header style */
-#div_head{float:right; 
+#div_head    {float:right; 
             width: 95.99%;
 			height: 14em;
 			margin:2em 2em 2em 2em;
 		    max-width:100%;
 			border-radius:20px;
             background-color:#0D6759;
-         			 
-		  }
+            }
 
 #div_left1  { float:left;
-		    margin-top:2%;
-		   margin-left:20%;
-		   max-width:100%
-			
-		 }
+		     margin-top:2%;
+		     margin-left:20%;
+		     max-width:100%
+		   }
 		 
 #div_right1{float:left;
             margin-left:1.5em;
-		     margin-top:2%;
-			 max-width:100%;
-		     } 
-#head_text{
-          float:left;
-		  margin-top:1.25em;
-		  margin-right:1.75em;
-		  margin-bottom:4.5em;
-		  margin-left: 1.75em;
-		  padding:.5em .5em .5em .5em;
-		  font: 3em arial, sans-serif;
-		  color: #6A5E72;
-		  text-align: center;
-		  border-radius:8px;
-		 background-color:white;
+		    margin-top:2%;
+			max-width:100%;
+		   } 
+
+#head_text{float:left;
+		   margin-top:1.25em;
+		   margin-right:1.75em;
+		   margin-bottom:4.5em;
+		   margin-left: 1.75em;
+		   padding:.5em .5em .5em .5em;
+		   font: 3em arial, sans-serif;
+		   color: #6A5E72;
+		   text-align: center;
+		   border-radius:8px;
+		   background-color:white;
 		  }
 /******************************************** end header style *************************/
-/*********************************** Begin Div Left ************************************/
-.mission{  font-family: Arial, Helvetica, sans-serif;
-		   line-height:20px;
-		   margin-right:1em;
-		   margin-left:2em;
-		   
-		   }
+/*********************************** Home page centre ************************************/
+.mission{font-family: Arial, Helvetica, sans-serif;
+		 line-height:20px;
+		 margin-right:1em;
+		 margin-left:2em;
+		}
 
 #heading {font-family: Arial, Helvetica, sans-serif;
 	     font-size: 20px;
@@ -67,58 +61,53 @@ body {background-color:#D3C8B2;
 	        text-align:center;
 	        line-height: 20px;
 		    text-decoration:underline;
-	 }
+		    }
 	 
 .subheading  + ul  > li {font-family: Arial, Helvetica, sans-serif;
                      font-size:1em;
                      margin-top:.25em;
 		             margin-right:1em;
 		             margin-left:1em;
-		        }	 
+		            }	 
 	 
 
-.price { font-family:"Times New Roman", Times, serif;
-           font-size:1.1em;
-		   margin-right:1.2em;
-		   text-align:center;
-		   color:blue;
-		   background-color: #F1E3F3;
-		   border:solid white;
-		  
-		 }
-#specials > img {
-                position:relative;
+/*******************Div left ************************************************/	 
+	 
+.price {font-family:"Times New Roman", Times, serif;
+        font-size:1.1em;
+		margin-right:1.2em;
+		text-align:center;
+		color:blue;
+		background-color: #F1E3F3;
+		border:solid white;
+	   }
+#specials > img {position:relative;
 				left:10px;
 				top:0px;
-				}
+			   }
 .div_container{clear:both;
                overflow: hidden;
 	           width: 100%;
-			 
- }              
-.div_left2 {
-                 float:left;
-				 margin-right:1.25em;
-				 margin-left:1.25em;
-		         width:16%;
-				 max-width:100%;
-				 border-left:0.25em;
-				/* border-left:solid gray;*/
-				background-color:#FFF;
-				 
-		        }
+			  }              
+.div_left2 {float:left;
+		    margin-right:1.25em;
+		    margin-left:1.25em;
+		    width:16%;
+	        max-width:100%;
+			border-left:0.25em;
+		    background-color:#FFF;
+		   }
 				
-.div_left2 ul {list-style-type:none;}
-#center_image {margin-left:1em;}
+.div_left2 ul {list-style-type:none;
+            }
+#center_image {margin-left:1em;
+              }
 
 .div_left3{
            float:left;
    		   margin-top: 1em;
 		   margin-right:1.25em;	
-   
-	     
-				
-		        }
+		  }
 #specials {font-family:"Courier New","Times New Roman", Times, serif;
           font-style:oblique;
 		  font-weight:900;
@@ -127,80 +116,67 @@ body {background-color:#D3C8B2;
           text-align:center;
 		  width:100%;
           }
+		  
+a:link {font-family: Arial, Helvetica, sans-serif;
+	   font-size: 12px;
+	   text-decoration: underline;
+	   font-weight: bold;
+	   padding: 1px;
+	   font-style: normal;
+       }
+a:hover {font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+	    text-decoration: underline;
+	    font-weight: bold;
+	    padding: 2px;
+	    font-style: normal;
+	    background-color: #26ADE4;
+	 
+	   }
+a.active {font-family: Arial, Helvetica, sans-serif;
+         font-size: 15px;
+	     font-weight: bold;
+	     padding: 2px;
+	     font-style: oblique;
+	     color:#2D0478;
+         }		  
+		  
+		  
 /****************************End div left *************************************/
 /****************************Begin div right **********************************/		 
-.div_right2     {
-          float:right;
-          width:20%;
-		  margin-top:1em;
-		  margin-right:3em;
-		  margin-bottom:0;
-		  margin-left:2em;
-		  
-		  }
-.div_right2_2     {
-          float:right;
-          width:20%;
-		  height:10em;
-		  margin:0 2em 1em .5em;
-		  padding: 1em 1em 1em 1em;
-		  font-style:oblique;
-		  background-color:white;
-	
-		  
-		  }
-.div_right2_3    {
-          float:right;
-          width:20%;
-		  margin:0 0 1em .5em;
-		  background-color:white;
-		  
-		  }
-
-		  
-a:link {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	text-decoration: underline;
-	font-weight: bold;
-	padding: 1px;
-	font-style: normal;
-}
-a:hover {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	text-decoration: underline;
-	font-weight: bold;
-	padding: 2px;
-	font-style: normal;
-	background-color: #fff;
-	color:#292A24;
-}
-a.active {
-    font-family: Arial, Helvetica, sans-serif;
-	font-size: 15px;
-	font-weight: bold;
-	padding: 2px;
-	font-style: oblique;
-	background-color: #0D6759;
-	color:#2D0478;
-}
-
-
+.div_right2  {float:right;
+             width:20%;
+		     margin-top:1em;
+		     margin-right:3em;
+		     margin-bottom:0;
+		     margin-left:2em;
+		    }
+			
+.div_right2_2   {float:right;
+                width:20%;
+		        height:10em;
+		        margin:0 2em 1em .5em;
+		        padding: 1em 1em 1em 1em;
+		        font-style:oblique;
+		        background-color:white;
+	           }
+.div_right2_3  {float:right;
+               width:20%;
+		       margin:0 0 1em .5em;
+		       background-color:white;
+			  }
 
 /************************* End div right *************************************/
 /************************* Footer ********************************************/
- .footer              {
-                float:left;
-				width:100%;
-				overflow:auto;
-				background-color:#0D6759; /*#A8A878;*/
-                height:3em;	
-				margin-bottom:1em;
-                border-bottom:.25em;				
-				border-bottom:solid gray;
-          				
-		        }
+ .footer    {float:left;
+	       width:100%;
+		   overflow:auto;
+		   background-color:#0D6759; 
+           height:3em;	
+		   margin-bottom:1em;
+           border-bottom:.25em;				
+	       border-bottom:solid gray;
+           }
 /*************************Products Table **********************/
 .table_position{ width:80%;
                  float:left;
@@ -209,20 +185,21 @@ a.active {
 				 background-color:#5E6CB7; 
 		        }
 		  
-.table_spec{ caption-side: top;
-       font-weight: bold;
-	   margin-top:1em;
-	   margin-bottom:1em;
-	   margin-left:1em;
-	   border-spacing: 15px 0px;
-	   }
+.table_spec{caption-side: top;
+            font-weight: bold;
+	        margin-top:1em;
+	        margin-bottom:1em;
+	        margin-left:1em;
+	        border-spacing: 15px 0px;
+	        }
 .table_price{text-align:center;
-              color:white;}
+             color:white;
+			}
 			  
 			  
-caption { font-weight:bold;
-        color:#FFF;
-		font-size:2em;
+caption {font-weight:bold;
+       color:#FFF;
+	   font-size:2em;
 	  }
 
 /************************Pest Control Page **********************/
@@ -230,7 +207,7 @@ caption { font-weight:bold;
    		   margin-top: 1em;
 		   margin-right: 2em;
 		   width:16%;
-		  	}
+		  }
 
 .div_left4  > h3{font-family: Arial, Helvetica, sans-serif;
 	            font-size: 15px;
@@ -241,23 +218,15 @@ caption { font-weight:bold;
 	            line-height: 20px;
                 text-decoration:underline;
                 }
-ol lh{color:green;
-  font-weight:bold;
-  text-decoration:underline;}
-.div_right4{
-           float:right;
-   		   margin-top: 1em;
-		   margin-left:2em;	
-             
-	     }
-.div_right3	
-{
-           float:right;
-   		   margin-top: .25em;
-		   width:80%;
 
-             
-	     }
+.div_right4{float:right;
+   		    margin-top: 1em;
+		    margin-left:2em;	
+           }
+.div_right3	{float:right;
+   		     margin-top: .25em;
+		     width:80%;
+			}
 		 
 /*******************************Disease control page **************************/
 .div_left5{float:left;
@@ -277,8 +246,8 @@ ol lh{color:green;
 			   color:#0D6759;
 			   font-weight:bold;
 			  }
-.div_left5 + ul :first-child {  
-                            color:#0D6759;
+			  
+.div_left5 + ul :first-child {color:#0D6759;
                             font-weight:bold; 
                             text-decoration:underline;
 				            list-style-type:none;
@@ -296,7 +265,12 @@ ol lh{color:green;
 		   border-color:#0D6759;
 		   padding: 1em 1em 1em 1em;
 		   }
+.div_left6 ul :first-child{color:#0D6759;
+				         text-decoration:underline;
+				         }
 /********************************Form Registration**********************/
+/* @author Enda McDonagh X12100871
+   @reference The Art and Science of CSS by Cameron Adams */
 fieldset{ margin: 1.5em 0 0 0;
        padding:0;
 	   float:left;
@@ -305,8 +279,6 @@ fieldset{ margin: 1.5em 0 0 0;
        padding: 0 0 1em 0;
        border-style: none;	   
 	   border-top: 1px solid #BFBAB0;
-     
-	   
 	  }
 	  
 legend {
@@ -315,9 +287,9 @@ legend {
 	  font-weight:bold;
 	  padding:0;
 	  }
-legend span{ position:absolute;
-           margin-top: 0.5em;
-		  }
+legend span{position:absolute;
+          margin-top: 0.5em;
+		 }
 	  
 fieldset ol {
          padding: 1em 1em 0 1em;
@@ -335,49 +307,42 @@ fieldset.submit{float:left;
 			 padding-left: 12em;
 			 background-color: transparent;
             }
-label{ display:block;
-     float:left;
-	 width: 10em;
-	 margin-right: 1em;
-	 text-align:right;
-	 color:#0D6759;
+label{display:block;
+    float:left;
+	width: 10em;
+	margin-right: 1em;
+	text-align:right;
+	color:#0D6759;
 	}
 			
-
-
-.form_register{ 
-               font:italic 12pt arial;
+.form_register{font:italic 12pt arial;
 		       list-style-type:none;
-               
-			   margin-left:20px;
+               margin-left:20px;
 			   text-decoration:underline;
 		      }
-.form_register  li  {
-                 margin-right:10px;
+.form_register  li {margin-right:10px;
 				 margin-left:5px;
 			     color:#0D6759;
-				 
-				}
-#emailTip {	font: small-caps bold 0.8em Arial, Helvetica, sans-serif;
-			color: red;
-			display: none;
-			}
-#FnameTip {	font: small-caps bold 0.8em Arial, Helvetica, sans-serif;
-			color: red;
-			display: none;
-			}
-#LnameTip {	font: small-caps bold 0.8em Arial, Helvetica, sans-serif;
-			color: red;
-			display: none;
-			}
-#addressTip {	font: small-caps bold 0.8em Arial, Helvetica, sans-serif;
-			    color: red;
-			    display: none;
+				 }
+#emailTip {font: small-caps bold 0.8em Arial, Helvetica, sans-serif;
+		   color: red;
+		   display: none;
+		  }
+#FnameTip {font: small-caps bold 0.8em Arial, Helvetica, sans-serif;
+		   color: red;
+		   display: none;
+		  }
+#LnameTip {font: small-caps bold 0.8em Arial, Helvetica, sans-serif;
+		   color: red;
+		   display: none;
+		  }
+#addressTip {font: small-caps bold 0.8em Arial, Helvetica, sans-serif;
+			 color: red;
+			 display: none;
 			}
 
-.text{
-      width:300px;
+.text{width:300px;
       height:60px;
-     }
+	 }
 .submit {color:#0D6759;
         }	 

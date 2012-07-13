@@ -1,7 +1,6 @@
 
-body {background-color:#D3C8B2;
-      
-    }
+body {background-color:#D3C8B2;}
+
 #div_head{float:right;
             width: 97%;
 			height: 14em;
@@ -9,24 +8,22 @@ body {background-color:#D3C8B2;
 			border-radius:20px;
 		    max-width:100%;
 		    background-color:#292A24;	
-		    
-          		   
-			
-			}
+		  }
 
-#div_left1  { float:left;
-		    margin-top:2%;
+#div_left1{float:left;
+		   margin-top:2%;
 		   margin-left:20%;
 		   max-width:100%;
-			display:none;
+		   display:none;
 		 }
 		 
 #div_right1{float:left;
             margin-left:1.5em;
-		     margin-top:2%;
-			 max-width:100%;
-			 display:none;
-		     } 
+		    margin-top:2%;
+			max-width:100%;
+			display:none;
+		    } 
+
 #head_text{
           float:left;
 		  margin:1em 1.75em 1.5em 9em;
@@ -44,46 +41,42 @@ body {background-color:#D3C8B2;
 /*********************************** Begin Div Left ************************************/
 
 .price { font-family:"Times New Roman", Times, serif;
-           font-size:1.25em;
-		   margin-right:.25em;
-		   text-align:center;
-		   color:blue;
-		   background-color: #F1E3F3;
-		   border:solid white;
-		  
-		 }
+        font-size:1.25em;
+		margin-right:.25em;
+		text-align:center;
+		color:blue;
+		background-color: #F1E3F3;
+		border:solid white;
+	   }
 .div_container{clear:both;
                overflow: hidden;
 	           width: 100%;
-			 
- }              
-.div_left2 {
-                 float:left;
-				 margin-top:1em;
-				 margin-right:1em;
-				 margin-bottom:1em;
-				 margin-left:1em;
-				 border-radius:10px;
-				 padding-top:.5em;
-				 padding-bottom:.5em;
-				 padding-left:.5em;
-		         width:16%;
-				 max-width:100%;
-				 background-color:#292A24;
-				 
-		        }
+			   }              
+
+.div_left2 { float:left;
+		     margin-top:1em;
+		     margin-right:1em;
+			 margin-bottom:1em;
+			 margin-left:1em;
+			 border-radius:10px;
+			 padding-top:.5em;
+			 padding-bottom:.5em;
+			 padding-left:.5em;
+		     width:16%;
+			 max-width:100%;
+			background-color:#292A24;
+		   }
 				
+
 .div_left2 ul {list-style-type:none;}
+
 #center_image {margin-left:1em;}
 
-.div_left3{
-           float:left;
+.div_left3{float:left;
    		   margin-top: 1em;
 		   margin-right:1.25em;	
-   
-	     
-				
-		        }
+		  }
+
 #specials {font-family:"Courier New","Times New Roman", Times, serif;
           font-style:oblique;
 		  font-weight:900;
@@ -93,57 +86,50 @@ body {background-color:#D3C8B2;
           }
 /****************************End div left *************************************/
 /****************************Begin div right **********************************/		 
-.div_right2     {
-          float:right;
-          width:20%;
-		  margin-top:4em;
-		  margin-right:1em;
-		  margin-bottom:1.5em;
-		  margin-left:1em;
-		  
-		  }
-.div_right2_2     {
-          float:right;
-          width:20%;
-		  height:10em;
-		  margin:0 2em 1em .5em;
-		  padding: 1em 1em 1em 1em;
-		  border-style:solid;
-		  border-color:gray;
-		  font-style:oblique;
-		  background-color:white;
-		  
-		  }
-/************************* End div right *************************************/
-a:link {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	text-decoration: underline;
-	font-weight: bold;
-	padding: 1px;
-	font-style: normal;
-	
-}
-a:hover {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	text-decoration: underline;
-	font-weight: bold;
-	padding: 2px;
-	font-style: normal;
-	background-color: #fff;
-	color:#B11623;
+.div_right2{ float:right;
+             width:20%;
+		     margin-top:4em;
+		     margin-right:1em;
+		     margin-bottom:1.5em;
+		     margin-left:1em;
+		   }
 
-}
-a.active {
-    font-family: Arial, Helvetica, sans-serif;
-	font-size: 15px;
-	font-weight: bold;
-	padding: 2px;
-	font-style: oblique;
-	background-color: #4DBCE9;
-	color:#2D0478;
-}
+.div_right2_2  {float:right;
+               width:20%;
+		       height:10em;
+		       margin:0 2em 1em .5em;
+		       padding: 1em 1em 1em 1em;
+		       border-style:solid;
+		       border-color:gray;
+		       font-style:oblique;
+		       background-color:white;
+		      }
+/************************* End div right *************************************/
+a:link {font-family: Arial, Helvetica, sans-serif;
+	   font-size: 14px;
+	   text-decoration: underline;
+	   font-weight: bold;
+	   padding: 1px;
+	   font-style: normal;
+	  }
+	  
+a:hover {font-family: Arial, Helvetica, sans-serif;
+	    font-size: 14px;
+	    text-decoration: underline;
+	    font-weight: bold;
+	    padding: 2px;
+	    font-style: normal;
+	    background-color: #fff;
+	    color:#B11623;
+	  }
+a.active {font-family: Arial, Helvetica, sans-serif;
+	     font-size: 15px;
+	     font-weight: bold;
+	     padding: 2px;
+	     font-style: oblique;
+	     background-color: #4DBCE9;
+	     color:#2D0478;
+        }
 
 /*************************************Home page *************************************/
 #heading {font-family: Arial, Helvetica, sans-serif;
@@ -163,7 +149,7 @@ a.active {
 	        text-align:center;
 	        line-height: 20px;
 		    text-decoration:underline;
-	 }
+	       }
 .mission{  font-family: Arial, Helvetica, sans-serif;
            font-size:1em;
            margin-top:1em;
@@ -171,39 +157,34 @@ a.active {
 		   margin-left:1em;
 		   list-style-type:none;
 		   color:#0D6759;
-		   
 		 }
 .subheading  + ul  > li {font-family: Arial, Helvetica, sans-serif;
                      font-size:1em;
                      margin-top:.25em;
 		             margin-right:1em;
 		             margin-left:1em;
-		        
-		        
-		   
-		         }
+		            }
 
 
 
 /************************* Footer ********************************************/
- .footer              {
-                float:left;
-				width:100%;
-				overflow:auto;
-				background-color:#292A24;
-                height:3em;	
-				margin-bottom:1em;
-                border-bottom:.25em;				
-				border-bottom:solid gray;
-          				
-		        }
+ .footer {
+          float:left;
+	      width:100%;
+	      overflow:auto;
+		  background-color:#292A24;
+          height:3em;	
+		  margin-bottom:1em;
+          border-bottom:.25em;				
+		  border-bottom:solid gray;
+         }
 /*************************Products Table **********************/
 .table_position{ width:79%;
                  float:left;
 				 margin-top:1em;
 				 margin-right:1em;
 				 border:solid gray;
-				background-color:#5E6CB7; 
+				 background-color:#5E6CB7; 
 		        }
 		  
 .table_spec{ caption-side: top;
@@ -213,7 +194,8 @@ a.active {
 	          border-spacing: 16px 11px;
 	       }
 .table_price{text-align:center;
-              color:white;}
+             color:white;
+			}
 			  
 caption { font-weight:bold;
         color:#FFF;
@@ -225,33 +207,32 @@ caption { font-weight:bold;
    		   margin-top: 1em;
 		   margin-right: 2em;
 		   width:17%;
-		  	color:#0D6759;
-			}
+		   color:#0D6759;
+		  }
 
 
-.div_right4{
-           float:right;
-   		   margin-top: 1em;
-		   margin-left:2em;	
-           color:#0D6759;  
-	     }
-.div_right3	
-{
-           float:right;
-   		   margin-top: .25em;
-		   width:80%;
-           color:#0D6759;
-             
-	     }
+.div_right4{float:right;
+   		    margin-top: 1em;
+		    margin-left:2em;	
+            color:#0D6759;  
+	       }
+
+.div_right3	{ float:right;
+   		      margin-top: .25em;
+		      width:80%;
+              color:#0D6759;
+            }
+			
 h3 {text-decoration:underline;
-     font-weight:bold;
-	 color:black;}		 
+    font-weight:bold;
+	color:black;
+  }		 
 /*******************************Disease control page **************************/
 .div_left5{clear:both;
            float:left;
 		   margin-right: 2em;
 		   font-size:1.25em;
-		  	}
+		  }
 .div_left5 > h3{text-decoration:underline;
                font-family: Arial, Helvetica, sans-serif;
 		       line-height:1em;
